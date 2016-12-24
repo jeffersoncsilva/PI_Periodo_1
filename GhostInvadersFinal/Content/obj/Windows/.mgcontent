@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SourceFileCollection xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Profile>Reach</Profile>
+  <Platform>Windows</Platform>
+  <Config />
+  <SourceFiles>
+    <File>D:/Projetos/Invaders/Invaders/GhostInvadersFinal/Content/Sprites/pac.png</File>
+    <File>D:/Projetos/Invaders/Invaders/GhostInvadersFinal/Content/Fonts/Ghost Of The Wild West.spritefont</File>
+    <File>D:/Projetos/Invaders/Invaders/GhostInvadersFinal/Content/Sprites/tela_creditos.png</File>
+    <File>D:/Projetos/Invaders/Invaders/GhostInvadersFinal/Content/Sprites/retangulo.png</File>
+    <File>D:/Projetos/Invaders/Invaders/GhostInvadersFinal/Content/Fonts/GroobyGhosties.spritefont</File>
+  </SourceFiles>
+</SourceFileCollection>

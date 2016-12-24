@@ -1,3 +1,9 @@
 # Ignora os arquivos temporarios do VS.
 
 GhostInvadersFinal/bin/Windows/**/*
+
+GhostInvadersFinal/obj/x86/**/*
+
+GhostInvader_SENAC_FINAL/bin/Windows/**/*
+
+GhostInvader_SENAC_FINAL/obj/x86/**/*

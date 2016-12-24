@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SourceFileCollection xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Profile>Reach</Profile>
+  <Platform>Windows</Platform>
+  <Config />
+  <SourceFiles>
+    <File>D:/Projetos/Invaders/Invaders/GhostInvader_SENAC_FINAL/Content/Ato_1.png</File>
+    <File>D:/Projetos/Invaders/Invaders/GhostInvader_SENAC_FINAL/Content/Ato_2.png</File>
+    <File>D:/Projetos/Invaders/Invaders/GhostInvader_SENAC_FINAL/Content/Ato_3.png</File>
+    <File>D:/Projetos/Invaders/Invaders/GhostInvader_SENAC_FINAL/Content/Ato_4.png</File>
+    <File>D:/Projetos/Invaders/Invaders/GhostInvader_SENAC_FINAL/Content/Ato_5.png</File>
+    <File>D:/Projetos/Invaders/Invaders/GhostInvader_SENAC_FINAL/Content/ato1.png</File>
+    <File>D:/Projetos/Invaders/Invaders/GhostInvader_SENAC_FINAL/Content/ato2.png</File>
+    <File>D:/Projetos/Invaders/Invaders/GhostInvader_SENAC_FINAL/Content/ato3.png</File>
+    <File>D:/Projetos/Invaders/Invaders/GhostInvader_SENAC_FINAL/Content/ato4.png</File>
+    <File>D:/Projetos/Invaders/Invaders/GhostInvader_SENAC_FINAL/Content/ato5.png</File>
+    <File>D:/Projetos/Invaders/Invaders/GhostInvader_SENAC_FINAL/Content/bonus_1.png</File>
+    <File>D:/Projetos/Invaders/Invaders/GhostInvader_SENAC_FINAL/Content/creditos.png</File>
+    <File>D:/Projetos/Invaders/Invaders/GhostInvader_SENAC_FINAL/Content/fim.png</File>
+    <File>D:/Projetos/Invaders/Invaders/GhostInvader_SENAC_FINAL/Content/final.png</File>
+    <File>D:/Projetos/Invaders/Invaders/GhostInvader_SENAC_FINAL/Content/menu.png</File>
+    <File>D:/Projetos/Invaders/Invaders/GhostInvader_SENAC_FINAL/Content/naveazul1.png</File>
+    <File>D:/Projetos/Invaders/Invaders/GhostInvader_SENAC_FINAL/Content/navemarrom1.png</File>
+    <File>D:/Projetos/Invaders/Invaders/GhostInvader_SENAC_FINAL/Content/NaveRosa1.png</File>
+    <File>D:/Projetos/Invaders/Invaders/GhostInvader_SENAC_FINAL/Content/NaveVermelha1.png</File>
+    <File>D:/Projetos/Invaders/Invaders/GhostInvader_SENAC_FINAL/Content/op.png</File>
+    <File>D:/Projetos/Invaders/Invaders/GhostInvader_SENAC_FINAL/Content/pac.png</File>
+    <File>D:/Projetos/Invaders/Invaders/GhostInvader_SENAC_FINAL/Content/pac2.png</File>
+    <File>D:/Projetos/Invaders/Invaders/GhostInvader_SENAC_FINAL/Content/part3.wav</File>
+    <File>D:/Projetos/Invaders/Invaders/GhostInvader_SENAC_FINAL/Content/pausa.png</File>
+    <File>D:/Projetos/Invaders/Invaders/GhostInvader_SENAC_FINAL/Content/Perseverar.wav</File>
+    <File>D:/Projetos/Invaders/Invaders/GhostInvader_SENAC_FINAL/Content/tiro.png</File>
+    <File>D:/Projetos/Invaders/Invaders/GhostInvader_SENAC_FINAL/Content/Arial.spritefont</File>
+  </SourceFiles>
+</SourceFileCollection>

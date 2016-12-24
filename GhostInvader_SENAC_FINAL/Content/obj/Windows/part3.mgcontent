@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PipelineBuildEvent xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <SourceFile>D:/Projetos/Invaders/Invaders/GhostInvader_SENAC_FINAL/Content/part3.wav</SourceFile>
+  <SourceTime>2016-12-24T15:52:54.3688615-02:00</SourceTime>
+  <DestFile>D:/Projetos/Invaders/Invaders/GhostInvader_SENAC_FINAL/Content/bin/Windows/part3.xnb</DestFile>
+  <DestTime>2016-12-24T17:10:25.678477-02:00</DestTime>
+  <Importer>WavImporter</Importer>
+  <ImporterTime>2016-03-30T03:36:08-03:00</ImporterTime>
+  <Processor>SoundEffectProcessor</Processor>
+  <ProcessorTime>2016-03-30T03:36:08-03:00</ProcessorTime>
+  <Parameters>
+    <Key>Quality</Key>
+    <Value>Best</Value>
+  </Parameters>
+  <Dependencies />
+  <BuildAsset />
+  <BuildOutput />
+</PipelineBuildEvent>

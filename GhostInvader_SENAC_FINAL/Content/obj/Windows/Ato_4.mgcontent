@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PipelineBuildEvent xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <SourceFile>D:/Projetos/Invaders/Invaders/GhostInvader_SENAC_FINAL/Content/Ato_4.png</SourceFile>
-  <SourceTime>2014-06-03T19:37:14-03:00</SourceTime>
-  <DestFile>D:/Projetos/Invaders/Invaders/GhostInvader_SENAC_FINAL/Content/bin/Windows/Ato_4.xnb</DestFile>
-  <DestTime>2016-12-24T17:10:24.5743867-02:00</DestTime>
+  <SourceFile>D:/Projetos/Invaders/PI_Periodo_1/GhostInvader_SENAC_FINAL/Content/Ato_4.png</SourceFile>
+  <SourceTime>2016-12-25T08:32:32.1295307-02:00</SourceTime>
+  <DestFile>D:/Projetos/Invaders/PI_Periodo_1/GhostInvader_SENAC_FINAL/Content/bin/Windows/Ato_4.xnb</DestFile>
+  <DestTime>2016-12-25T09:08:12.594392-02:00</DestTime>
   <Importer>TextureImporter</Importer>
   <ImporterTime>2016-03-30T03:36:08-03:00</ImporterTime>
   <Processor>TextureProcessor</Processor>

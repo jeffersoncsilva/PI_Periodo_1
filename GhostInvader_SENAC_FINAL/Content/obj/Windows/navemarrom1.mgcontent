@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PipelineBuildEvent xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <SourceFile>D:/Projetos/Invaders/Invaders/GhostInvader_SENAC_FINAL/Content/navemarrom1.png</SourceFile>
-  <SourceTime>2014-06-06T07:59:44-03:00</SourceTime>
-  <DestFile>D:/Projetos/Invaders/Invaders/GhostInvader_SENAC_FINAL/Content/bin/Windows/navemarrom1.xnb</DestFile>
-  <DestTime>2016-12-24T17:10:25.2216617-02:00</DestTime>
+  <SourceFile>D:/Projetos/Invaders/PI_Periodo_1/GhostInvader_SENAC_FINAL/Content/navemarrom1.png</SourceFile>
+  <SourceTime>2016-12-25T08:32:32.5358518-02:00</SourceTime>
+  <DestFile>D:/Projetos/Invaders/PI_Periodo_1/GhostInvader_SENAC_FINAL/Content/bin/Windows/navemarrom1.xnb</DestFile>
+  <DestTime>2016-12-25T09:08:13.2506514-02:00</DestTime>
   <Importer>TextureImporter</Importer>
   <ImporterTime>2016-03-30T03:36:08-03:00</ImporterTime>
   <Processor>TextureProcessor</Processor>

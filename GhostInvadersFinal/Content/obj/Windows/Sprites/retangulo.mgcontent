@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PipelineBuildEvent xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <SourceFile>D:/Projetos/Invaders/Invaders/GhostInvadersFinal/Content/Sprites/retangulo.png</SourceFile>
-  <SourceTime>2016-11-23T13:58:00.8456175-02:00</SourceTime>
-  <DestFile>D:/Projetos/Invaders/Invaders/GhostInvadersFinal/Content/bin/Windows/Sprites/retangulo.xnb</DestFile>
-  <DestTime>2016-12-24T17:12:12.205399-02:00</DestTime>
+  <SourceFile>D:/Projetos/Invaders/PI_Periodo_1/GhostInvadersFinal/Content/Sprites/retangulo.png</SourceFile>
+  <SourceTime>2016-12-25T08:32:32.8506401-02:00</SourceTime>
+  <DestFile>D:/Projetos/Invaders/PI_Periodo_1/GhostInvadersFinal/Content/bin/Windows/Sprites/retangulo.xnb</DestFile>
+  <DestTime>2016-12-25T09:08:28.7376549-02:00</DestTime>
   <Importer>TextureImporter</Importer>
   <ImporterTime>2016-03-30T03:36:08-03:00</ImporterTime>
   <Processor>TextureProcessor</Processor>

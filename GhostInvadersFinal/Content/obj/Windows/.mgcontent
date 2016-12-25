@@ -4,10 +4,10 @@
   <Platform>Windows</Platform>
   <Config />
   <SourceFiles>
-    <File>D:/Projetos/Invaders/Invaders/GhostInvadersFinal/Content/Sprites/pac.png</File>
-    <File>D:/Projetos/Invaders/Invaders/GhostInvadersFinal/Content/Fonts/Ghost Of The Wild West.spritefont</File>
-    <File>D:/Projetos/Invaders/Invaders/GhostInvadersFinal/Content/Sprites/tela_creditos.png</File>
-    <File>D:/Projetos/Invaders/Invaders/GhostInvadersFinal/Content/Sprites/retangulo.png</File>
-    <File>D:/Projetos/Invaders/Invaders/GhostInvadersFinal/Content/Fonts/GroobyGhosties.spritefont</File>
+    <File>D:/Projetos/Invaders/PI_Periodo_1/GhostInvadersFinal/Content/Sprites/pac.png</File>
+    <File>D:/Projetos/Invaders/PI_Periodo_1/GhostInvadersFinal/Content/Fonts/Ghost Of The Wild West.spritefont</File>
+    <File>D:/Projetos/Invaders/PI_Periodo_1/GhostInvadersFinal/Content/Sprites/tela_creditos.png</File>
+    <File>D:/Projetos/Invaders/PI_Periodo_1/GhostInvadersFinal/Content/Sprites/retangulo.png</File>
+    <File>D:/Projetos/Invaders/PI_Periodo_1/GhostInvadersFinal/Content/Fonts/GroobyGhosties.spritefont</File>
   </SourceFiles>
 </SourceFileCollection>

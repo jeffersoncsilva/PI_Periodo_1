@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PipelineBuildEvent xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <SourceFile>D:/Projetos/Invaders/Invaders/GhostInvader_SENAC_FINAL/Content/Perseverar.wav</SourceFile>
-  <SourceTime>2016-12-24T15:52:54.3738646-02:00</SourceTime>
-  <DestFile>D:/Projetos/Invaders/Invaders/GhostInvader_SENAC_FINAL/Content/bin/Windows/Perseverar.xnb</DestFile>
-  <DestTime>2016-12-24T17:10:25.8905746-02:00</DestTime>
+  <SourceFile>D:/Projetos/Invaders/PI_Periodo_1/GhostInvader_SENAC_FINAL/Content/Perseverar.wav</SourceFile>
+  <SourceTime>2016-12-25T08:32:32.1575652-02:00</SourceTime>
+  <DestFile>D:/Projetos/Invaders/PI_Periodo_1/GhostInvader_SENAC_FINAL/Content/bin/Windows/Perseverar.xnb</DestFile>
+  <DestTime>2016-12-25T09:08:13.7337146-02:00</DestTime>
   <Importer>WavImporter</Importer>
   <ImporterTime>2016-03-30T03:36:08-03:00</ImporterTime>
   <Processor>SoundEffectProcessor</Processor>

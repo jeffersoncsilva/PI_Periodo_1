@@ -21,6 +21,8 @@ namespace GhostInvadersFinal.Interface
             this.fonte = font;
         }
 
+        public void SetSpriteFont(SpriteFont sf) { this.fonte = sf; }
+
         public void Draw(SpriteBatch sp)
         {
             //sp.DrawString(fonte, this.msg, this.dimensoes, Color.White);

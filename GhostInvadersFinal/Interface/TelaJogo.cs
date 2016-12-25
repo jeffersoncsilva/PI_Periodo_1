@@ -12,6 +12,7 @@ namespace GhostInvadersFinal.Interface
     {
         List<StringTela> stringsTela;
         SpriteFont fonte;
+        public int TelaAtual { get; private set; }
 
         /// <summary>
         /// Cria a tela dizendo qual tela que e. 1 - tela de inicio. 2 - tela de creditos. 3 - tela de pausa
@@ -20,6 +21,7 @@ namespace GhostInvadersFinal.Interface
         /// <param name="qualTela"></param>
         public TelaJogo(int qualTela, SpriteFont fonte)
         {
+            TelaAtual = qualTela;
             this.stringsTela = new List<StringTela>();
             this.fonte = fonte;
             switch (qualTela)
@@ -38,11 +40,39 @@ namespace GhostInvadersFinal.Interface
                     break;
             }
         }
-        
+
+        public TelaJogo(int qualTela)
+        {
+            TelaAtual = qualTela;
+            this.stringsTela = new List<StringTela>();
+            switch (qualTela)
+            {
+                case 1:
+                    CriaTelaMenuInicio();
+                    break;
+                case 2:
+                    CriaTelaCreditos();
+                    break;
+                case 3:
+                    CriaTelaPausa();
+                    break;
+                case 4:
+                    CriaTelaGameOver();
+                    break;
+            }
+        }
+
         public void Draw(SpriteBatch sp)
         {
             foreach (StringTela st in this.stringsTela)
                 st.Draw(sp);
+        }
+
+        public void SetaSpriteFonte(SpriteFont sFont)
+        {
+            this.fonte = sFont;
+            foreach (StringTela t in stringsTela)
+                t.SetSpriteFont(this.fonte);
         }
 
         private void CriaTelaGameOver()
@@ -70,13 +100,13 @@ namespace GhostInvadersFinal.Interface
             this.stringsTela.Add(new StringTela(msg, posicao, this.fonte));
 
 
-            
+
             larg = GetLarguraElemento(50);
             alt = GetAlturaElemento(25);
             x = (BoardGame.LarguraDaTela / 2) - larg / 2;
             y = BoardGame.AlturaDaTela - (alt / 2) - 10;
             posicao = new Rectangle(x, y, larg, alt);
-            this.stringsTela.Add(new StringTela("Pressione qualquer tecla para sair...", posicao, this.fonte));
+            this.stringsTela.Add(new StringTela("Pressione ESC para sair.", posicao, this.fonte));
 
 
         }

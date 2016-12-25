@@ -39,9 +39,11 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="BoardGame.cs" />
+    <Compile Include="ElementoTela.cs" />
     <Compile Include="Helpers\Pontuacao.cs" />
     <Compile Include="Helpers\PorcetagensTela.cs" />
     <Compile Include="Interface\ControladorDeTelas.cs" />
+    <Compile Include="Interface\IconeJogador.cs" />
     <Compile Include="Interface\StringTela.cs" />
     <Compile Include="Interface\TelaJogo.cs" />
     <Compile Include="Program.cs" />

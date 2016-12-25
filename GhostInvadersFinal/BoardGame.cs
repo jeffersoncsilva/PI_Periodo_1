@@ -1,7 +1,6 @@
 ﻿using GhostInvadersFinal.Interface;
 using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
-using Microsoft.Xna.Framework.Input;
 
 
 namespace GhostInvadersFinal
@@ -13,7 +12,9 @@ namespace GhostInvadersFinal
     {
         public static int LarguraDaTela = 800;
         public static int AlturaDaTela = 600;
-
+        public static bool GameIsPaused = false;
+        public static bool GameIsStarted = false;
+        public static Game Board;
 
         GraphicsDeviceManager graphics;
         SpriteBatch spriteBatch;
@@ -25,6 +26,7 @@ namespace GhostInvadersFinal
 
         public BoardGame()
         {
+            Board = this;
             graphics = new GraphicsDeviceManager(this);
             Content.RootDirectory = "Content";
 
@@ -45,7 +47,7 @@ namespace GhostInvadersFinal
 
         protected override void Initialize()
         {
-            
+            this.controladorDeTelas = new ControladorDeTelas();
             
             base.Initialize();
         }
@@ -54,7 +56,8 @@ namespace GhostInvadersFinal
         {
             // Create a new SpriteBatch, which can be used to draw textures.
             spriteBatch = new SpriteBatch(GraphicsDevice);
-            this.controladorDeTelas = new ControladorDeTelas(Content.Load<SpriteFont>("Fonts/Ghost Of The Wild West"));
+            this.controladorDeTelas.LoadContent(Content);
+            //this.controladorDeTelas = new ControladorDeTelas(Content.Load<SpriteFont>("Fonts/Ghost Of The Wild West"));
         }
 
         protected override void UnloadContent()
@@ -63,6 +66,7 @@ namespace GhostInvadersFinal
 
         protected override void Update(GameTime gameTime)
         {
+            this.controladorDeTelas.Update(gameTime);
             base.Update(gameTime);
         }
 
@@ -76,6 +80,11 @@ namespace GhostInvadersFinal
             spriteBatch.End();
 
             base.Draw(gameTime);
+        }
+    
+        public static void FecharJogo()
+        {
+            Board.Exit();
         }
 
     }
